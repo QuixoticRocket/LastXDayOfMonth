@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lastdayofmonth", "lastdayofmonth\lastdayofmonth.csproj", "{A96DAE4E-6021-40B9-9CFA-074ED8BC0A12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datefiddlystuff", "datefiddlystuff\datefiddlystuff.csproj", "{5257D70D-78D4-44BF-B721-7529E0E79C6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "datefiddlystuff\Utilities.csproj", "{5257D70D-78D4-44BF-B721-7529E0E79C6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{AABC49AB-7A42-425B-83B2-54280815501F}"
 EndProject

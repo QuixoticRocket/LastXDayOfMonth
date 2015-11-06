@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\datefiddlystuff\datefiddlystuff.csproj">
+    <ProjectReference Include="..\datefiddlystuff\Utilities.csproj">
       <Project>{5257d70d-78d4-44bf-b721-7529e0e79c6e}</Project>
-      <Name>datefiddlystuff</Name>
+      <Name>Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

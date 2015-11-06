@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace datefiddlystuff
+namespace Utilities
 {
-    public static class staticFiddler
+    public static class DateHelper
     {
-        public static int GetLastDayOfMonth(DayOfWeek day, int month, int year)
+        public static int GetDAteOfLastOccurenceOfDayInMonth(DayOfWeek dayToTest, int month, int year)
         {
             var numberOfDays = DateTime.DaysInMonth(year, month);
             DateTime workingDate = new DateTime(year, month, numberOfDays);
             for (int i = 1; i < 7; i++)
             {
-                if (workingDate.DayOfWeek == day)
+                if (workingDate.DayOfWeek == dayToTest)
                 {
                     return workingDate.Day;
                 }
@@ -23,6 +23,11 @@ namespace datefiddlystuff
             }
 
             return workingDate.Day;
+        }
+
+        public static int GetDAteOfLastOccurenceOfDayInMonth(DayOfWeek dayToTest, DateTime datetimeInMonth)
+        {
+            return GetDAteOfLastOccurenceOfDayInMonth(dayToTest, datetimeInMonth.Month, datetimeInMonth.Year);
         }
     }
 }
